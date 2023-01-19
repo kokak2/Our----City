@@ -1,1 +1,294 @@
-/* You can add global styles to this file, and also import other style files */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+div{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+header{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+nav{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box
+}
+section{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+article{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+footer{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+*:focus{
+	outline: none;
+}
+.background1{
+	width: 100%;
+}
+
+.background{
+	background-color: #efd9abb0;
+	width: 100%;
+    height: 100vh;
+    margin:0px;
+}
+.chart1R{
+    width: 60px;
+    height: 10px;
+    background-color: rgb(85, 79, 79,);
+    margin-top: 3px;
+}
+.chart1Y{
+    width: 60px;
+    height: 10px;
+    background-color: rgb(85, 79, 79,);
+    margin-top: 3px;
+}
+.chart1G{
+    width: 60px;
+    height: 10px;
+    background-color: rgb(85, 79, 79,);
+    margin-top: 3px;
+}
+.button1{
+    width: 50px;
+    height: 50px;
+    border:rgb(85, 79, 79,);
+    border-radius: 25px;
+    background: none;
+}
+.chartH117{
+    height: 117px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.ampelon{
+    position: relative;
+    background-color: #fff6e1;
+    background-image: url(app/Chaos/Fotos/ampel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:rgb(85, 79, 79,);
+    border-width: 2px;
+    border-style: none;
+    width: 100%-15px;
+    height: 200px;
+
+}
+
+.ampeloff{
+    position: relative;
+    background-color: #fff6e1;
+    background-image: url(app/Chaos/Fotos/ampeloff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:rgb(85, 79, 79,);
+    border-style: none;
+    border-width: 2px;
+    width: 100%-15px;
+    height: 200px;
+}
+.input1{
+    background-color: transparent;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+}
+
+
+
+.fahrrad:hover{
+    background-color: #ece6d5;
+}
+
+.day{
+	position: relative;
+	background-color: hsl(0, 0%, 100%);
+	background-image: url(app/Chaos/Fotos/Tag.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+}
+
+.night{
+    position: relative;
+	background-color: hsl(0, 0%, 100%);
+	background-image: url(app/Chaos/Fotos/Nacht.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+}
+.weather1{
+        position: relative;
+        background-image: url(app/Chaos/Fotos/Sonne.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border: rgb(85, 79, 79);
+        border-width: 2px;
+        border-style: none;
+        width: 300px;
+        height: 170px;
+}
+.weather2{
+    background-image: url(app/Chaos/Fotos/Regnen.gif);
+  
+}
+.weather3{
+    background-image: url(app/Chaos/Fotos/Schnee.gif);
+}
+.button1Start{
+    background-color: #fff6e1;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 600px;
+    padding:15px;
+    display:block
+}
+:hover.button1Start{
+    background-color: #c0b9a9;
+    color: white;
+    
+}
+.button1HalfStart{
+    background-color: #fff6e1;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 300px;
+    padding:15px;
+    display:block
+}
+:hover.button1HalfStart{
+    background-color: #c0b9a9;
+    color: white;
+}
+.button1QuarterStart{
+    background-color: #fff6e1;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 150px;
+    padding:15px;
+    display:block
+}
+:hover.button1QuarterStart{
+    background-color: #c0b9a9;
+    color: white;
+}
+.buttonAngebot{
+    background-color: #fff6e1;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 120px;
+    padding:15px,20px,15px,20px;
+    display:block
+}
+:hover.buttonAngebot{
+    background-color: #c0b9a9;
+    color: white;
+}
+
+.buttonWeiter{
+    background-color: #fff6e1;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 100%;
+    padding: 15px;
+    display:block
+
+    
+}
+
+.buttonWeiter:hover{
+    background-color: #c0b9a9;
+    color: white;
+}
+
+
+
+
+.fahrzeug1{
+    background-image: url(app/Chaos/Fotos/Fahr1.png);
+    background-size: cover;
+    height: 60px;
+    border:rgb(85, 79, 79,);
+    border-style: solid;
+    border-width: 3px;
+    width: 60px;
+    padding:15px,20px,15px,20px;
+    display:block
+}
+:hover.fahrzeug1{
+    border:rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+}
+.fahrzeug2{
+    background-image: url(app/Chaos/Fotos/Fahr2.png);
+}
+.fahrzeug3{
+    background-image: url(app/Chaos/Fotos/Fahr3.png);
+}
+.fahrzeug4{
+    background-image: url(app/Chaos/Fotos/Fahr4.png);
+}
+.fahrzeug5{
+    background-image: url(app/Chaos/Fotos/Fahr5.png);
+}
+.fahrzeug6{
+    background-image: url(app/Chaos/Fotos/Fahr6.png);
+}
+
+

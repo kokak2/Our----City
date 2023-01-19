@@ -1,0 +1,396 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/popins-font2/Poppins-ExtraBold.eot');
+    src: url('fonts/popins-font2/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/popins-font2/Poppins-ExtraBold.woff2') format('woff2'),
+        url('fonts/popins-font2/Poppins-ExtraBold.woff') format('woff'),
+        url('fonts/popins-font2/Poppins-ExtraBold.ttf') format('truetype'),
+        url('fonts/popins-font2/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.startBoxHor{
+width: 600px;
+background-color: #fff6e1;
+margin-top: 50px;
+border-style: solid;
+border-color: rgb(85, 79, 79);
+border-width: 3px;
+}
+.startBoxHor2{
+border-color: rgb(85, 79, 79,);
+background-color: #fff6e1;
+height: 40px;
+border-bottom: 3px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack:start;
+    -ms-flex-pack:start;
+        justify-content:flex-start;
+margin-top: 20px;
+}
+.playBox{
+    width: 360px;
+    display: block;
+}
+.playBox2{
+    width: 360px;
+    display: block;
+    background-color: #fff6e1;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-3 {
+    font-family: Poppins;
+    color: rgb(85, 79, 79);
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 19px;
+}
+.font-4 {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 19px;
+}
+.font-5 {
+    font-family: Poppins;
+    color: rgb(85, 79, 79);
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 19px;
+}
+
+h3 {
+    font-family: Poppins;
+    color: #000;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 59px;
+}
+p {
+    font-family: Poppins;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    line-height: 24px;
+}
+h4,.h4{
+    font-family: Poppins;
+    color:rgb(85, 79, 79);
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+}
+h5,.h5{
+    font-family: Poppins;
+    color:white;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flex-evenly{
+    
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-evenly;
+    
+}
+.flex-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+}
+.flex-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+}
+.flex-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-col-evenly{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-ar {
+    -ms-flex-pack: distribute;
+	justify-content: space-around;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.flex-centr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.margAll-10{
+    margin: 10px;
+}
+.margAll-15{
+    margin: 15px;
+}
+.mar-left {
+    margin-left: 138px;
+}
+.mar-rig {
+    margin-right: 138px;
+}
+.marg-100t {
+    margin-top: 100px;
+}
+.marg-100b {
+    margin-bottom: 100px;
+}
+.marg-100l{
+    margin-left: 100px;
+}
+.marg-10r {
+    margin-right: 10px;
+}
+.marg-50l {
+    margin-left: 50px;
+}
+.marg-50t {
+    margin-top: 50px;
+}
+.marg-50b {
+    margin-bottom: 50px;
+}
+.marg-50t {
+    margin-top: 50px;
+}
+.pad-50l{
+    padding-left: 50px;
+}
+
+.marg-20l {
+    margin-left: 20px;
+}
+.pad-20l{
+    padding-left: 20px;
+}
+.marg-20b {
+    margin-bottom: 20px;
+}
+.marg-10b {
+    margin-bottom: 10px;
+}
+.marg-10t {
+    margin-top: 10px;
+}
+.pad-10l{
+    padding-left: 10px;
+}
+.pad-50t{
+    padding-top: 50px;
+}
+
+.marg-20t {
+    margin-top: 20px;
+}
+.marg-0{
+    margin:0 auto;
+}
+.text-cen{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+.startBoxHor{
+    width: 400px;
+    margin-top: 15px;
+}
+.startBoxHor2{
+    width: 300px;
+}
+.input1{
+    width: 150px;
+}
+.button1Start{
+    width: 400px;
+}
+.button1HalfStart{
+    width: 200px;
+}
+.marg-50t{
+    margin-top: 15px;
+}
+.pad-50t{
+    padding-top: 15px;
+}
+.font-5{
+    font-size: 15px;
+}
+}
